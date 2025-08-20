@@ -1,0 +1,6 @@
+# typical folder name in case we build on the command-line
+build
+# ignores CLion genereated build folders
+cmake-build*
+# ignore user specific CLion settings
+.idea
