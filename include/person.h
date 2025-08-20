@@ -20,6 +20,10 @@ public:
         std::cout << "First name: " << firstName
                   << ", Last name: " << lastName << std::endl;
     }
+
+    std::string getFullName() const {
+        return firstName + " " + lastName;
+    }
 };
 
 #endif // EXERCISE1_PERSON_H
