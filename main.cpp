@@ -1,12 +1,16 @@
-//
-// Created by Danie on 20.08.2025.
-//
-#include "Person.h"
+#include "greet.hpp"
+#include <vector>
 
 int main() {
-    Person p("Ola", "Normann");
-    p.print();
-    std::cout << "Full name: " << p.getFullName() << std::endl;
+    std::vector<Greet> greetings = {
+            {"Ola", "Nordman", "Hello"},
+            {"Greta", "Thundberg", "Hello"},
+            {"Lars", "Ivar", "Hello"}
+    };
+
+    for (const auto& g : greetings) {
+        g.print();
+    }
+
     return 0;
 }
-
