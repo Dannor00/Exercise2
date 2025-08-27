@@ -1,7 +1,3 @@
-//
-// Created by Danie on 25.08.2025.
-//
-
 #include "greet.hpp"
 #include <iostream>
 

@@ -1,7 +1,3 @@
-//
-// Created by Danie on 20.08.2025.
-//
-
 #ifndef EXERCISE1_PERSON_H
 #define EXERCISE1_PERSON_H
 
